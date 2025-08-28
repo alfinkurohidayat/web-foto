@@ -63,11 +63,41 @@ fetch('data.json')
         });
     }
 
-    // Tampilkan detail modal
+    // Tampilkan detail modal + setup tombol download
     function showDetail(item) {
       detailImage.src = item.image;
-      downloadBtn.href = item.image;
-      downloadBtn.setAttribute("download", item.title + ".jpg");
+
+      // 🔹 ambil ekstensi file asli
+      const fileExt = item.image.split('.').pop().split('?')[0];
+      const fileName = `${item.title}.${fileExt}`;
+
+      // 🔹 link iklan (ubah sesuai kebutuhanmu)
+      const adLink = "https://www.effectivecpmrate.com/kdqt4w71t?key=10f04288cc090e54bd5a14b492d1d29a";
+
+      let firstClick = true;
+
+      // Reset event listener biar tidak dobel
+      const newDownloadBtn = downloadBtn.cloneNode(true);
+      downloadBtn.parentNode.replaceChild(newDownloadBtn, downloadBtn);
+
+      newDownloadBtn.addEventListener('click', function (e) {
+        e.preventDefault();
+
+        if (firstClick) {
+          // Klik pertama → buka iklan
+          window.open(adLink, "_blank");
+          firstClick = false;
+
+          // Ubah tombol jadi link file asli
+          newDownloadBtn.setAttribute("href", item.image);
+          newDownloadBtn.setAttribute("download", fileName);
+          newDownloadBtn.textContent = "Klik lagi untuk Download";
+        } else {
+          // Klik kedua → download file
+          window.location.href = item.image;
+        }
+      });
+
       modal.style.display = "flex";
     }
 
