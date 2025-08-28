@@ -88,13 +88,16 @@ fetch('data.json')
           window.open(adLink, "_blank");
           firstClick = false;
 
-          // Ubah tombol jadi link file asli
-          newDownloadBtn.setAttribute("href", item.image);
-          newDownloadBtn.setAttribute("download", fileName);
+          // Ubah teks tombol biar jelas
           newDownloadBtn.textContent = "Klik lagi untuk Download";
         } else {
-          // Klik kedua → download file
-          window.location.href = item.image;
+          // Klik kedua → langsung download file
+          const a = document.createElement("a");
+          a.href = item.image;
+          a.download = fileName;
+          document.body.appendChild(a);
+          a.click();
+          document.body.removeChild(a);
         }
       });
 
