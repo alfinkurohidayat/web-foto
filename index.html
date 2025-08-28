@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="id">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Image-Mania</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+  <!-- Header -->
+  <header>
+    <h1>Image-Mania</h1>
+    <nav>
+      <a href="#">Home</a>
+      <a href="#">About</a>
+      <a href="#">Contact</a>
+      <a href="https://terupdate.vercel.app/" target="_blank">Web</a>
+    </nav>
+  </header>
+
+  <!-- Main Content -->
+  <main>
+    <!-- Intro -->
+    <section class="search-section">
+      <h2>Download High-Quality Photos</h2>
+    </section>
+
+    <!-- Categories -->
+    <section class="categories">
+      <h3>Popular Categories</h3>
+      <div class="category-grid" id="category-grid"></div>
+    </section>
+
+    <!-- Photos -->
+    <section class="photos">
+      <h3 id="photos-title">Semua Foto</h3>
+      <div class="photo-grid" id="photo-grid"></div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer>
+    <p>&copy; 2025 Image-Mania. All rights reserved.</p>
+  </footer>
+
+  <!-- Modal Detail -->
+  <div id="detail-modal" class="modal">
+    <div class="modal-content">
+      <span id="close-btn" class="close">&times;</span>
+      <h2 id="detail-title"></h2>
+      <p id="detail-category"></p>
+      <img id="detail-image" src="" alt="">
+
+      <!-- Tombol Download -->
+      <a id="download-btn" href="" download class="download-button">Download</a>
+    </div>
+  </div>
+
+
+  <!-- Script -->
+  <script src="script.js"></script>
+</body>
+
+</html>

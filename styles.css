@@ -1,0 +1,219 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #121212;
+    /* hitam gelap */
+    color: #eaeaea;
+    /* teks abu terang */
+}
+
+header {
+    background-color: #1e1e1e;
+    /* header lebih terang sedikit */
+    padding: 20px;
+    text-align: center;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.6);
+}
+
+nav a {
+    margin: 0 15px;
+    text-decoration: none;
+    color: #4da6ff;
+    /* biru neon */
+}
+
+nav a:hover {
+    color: #80cfff;
+}
+
+h1,
+h2,
+h3 {
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.search-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px 0;
+}
+
+input[type="text"] {
+    padding: 10px;
+    width: 80%;
+    max-width: 400px;
+    border: 1px solid #333;
+    border-radius: 4px;
+    background: #1c1c1c;
+    color: #eaeaea;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #007BFF;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+.categories {
+    text-align: center;
+    position: sticky;
+    top: 0px;
+    /* biar gak tabrakan sama header */
+    z-index: 999;
+    background-color: #121212;
+    /* biar gak transparan saat nempel */
+    padding: 10px 0;
+}
+
+.category-item.active {
+    background-color: #4da6ff;
+    /* biru neon */
+    color: #121212;
+    /* teks jadi gelap kebalikannya */
+    font-weight: bold;
+}
+
+.category-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+.category-item {
+    background-color: #1e1e1e;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 2px 6px rgba(0, 0, 0, 0.6);
+    text-align: center;
+    color: #ddd;
+    cursor: pointer;
+    transition: transform 0.2s ease, background 0.2s ease;
+}
+
+.category-item:hover {
+    background-color: #2a2a2a;
+    transform: scale(1.05);
+}
+
+footer {
+    text-align: center;
+    padding: 20px;
+    background-color: #1e1e1e;
+    box-shadow: 0 -2px 4px rgba(0, 0, 0, 0.6);
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    color: #aaa;
+}
+
+/* Modal Background */
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1000;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.85);
+    justify-content: center;
+    align-items: center;
+}
+
+/* Modal Box */
+.modal-content {
+    background: #1c1c1c;
+    padding: 15px;
+    border-radius: 10px;
+    max-width: 400px;
+    width: 80%;
+    text-align: center;
+    position: relative;
+    color: #eaeaea;
+}
+
+/* Detail Image di Modal */
+#detail-image {
+    width: 100%;
+    max-width: 90vw;
+    max-height: 80vh;
+    object-fit: contain;
+    border-radius: 8px;
+    margin-top: 15px;
+}
+
+/* Sembunyikan Title & Category */
+#detail-title,
+#detail-category {
+    display: none;
+}
+
+
+#photos-title {
+    display: none;
+}
+
+/* Close Button */
+.close {
+    position: absolute;
+    top: 5px;
+    right: 15px;
+    font-size: 24px;
+    cursor: pointer;
+    color: #fff;
+}
+
+/* Tombol Download di Modal */
+.download-button {
+    display: inline-block;
+    margin-top: 15px;
+    padding: 10px 20px;
+    background-color: #28a745;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.download-button:hover {
+    background-color: #218838;
+}
+
+/* Foto Grid */
+.photo-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(150px, 1fr));
+    gap: 10px;
+    padding: 20px;
+}
+
+/* Foto Thumbnail */
+.photo-grid img {
+    width: 100%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: transform 0.2s ease;
+}
+
+.photo-grid img:hover {
+    transform: scale(1.05);
+}

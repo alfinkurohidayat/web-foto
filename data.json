@@ -1,0 +1,272 @@
+[
+    {
+        "id": 1,
+        "title": "cewe jepang",
+        "category": "Japan",
+        "image": "img/img1.jpg"
+    },
+    {
+        "id": 2,
+        "title": "Gunung",
+        "category": "Japan",
+        "image": "img/img2.jpg"
+    },
+    {
+        "id": 3,
+        "title": "Laptop",
+        "category": "Japan",
+        "image": "img/img3.jpg"
+    },
+    {
+        "id": 4,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img4.jpg"
+    },
+    {
+        "id": 5,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img5.jpg"
+    },
+    {
+        "id": 6,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img6.jpg"
+    },
+    {
+        "id": 7,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img7.jpg"
+    },
+    {
+        "id": 8,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img8.jpg"
+    },
+    {
+        "id": 9,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img9.jpg"
+    },
+    {
+        "id": 10,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img10.jpg"
+    },
+    {
+        "id": 11,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img11.jpg"
+    },
+    {
+        "id": 12,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img12.jpg"
+    },
+    {
+        "id": 13,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img13.jpg"
+    },
+    {
+        "id": 14,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img14.jpg"
+    },
+    {
+        "id": 15,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img15.jpg"
+    },
+    {
+        "id": 16,
+        "title": "Laptop",
+        "category": "Japan",
+        "image": "img/img16.jpg"
+    },
+    {
+        "id": 17,
+        "title": "Laptop",
+        "category": "Japan",
+        "image": "img/img17.jpg"
+    },
+    {
+        "id": 18,
+        "title": "Laptop",
+        "category": "Japan",
+        "image": "img/img18.jpg"
+    },
+    {
+        "id": 19,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img19.jpg"
+    },
+    {
+        "id": 20,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img20.jpg"
+    },
+    {
+        "id": 21,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img21.jpg"
+    },
+    {
+        "id": 22,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img22.jpg"
+    },
+    {
+        "id": 23,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img23.jpg"
+    },
+    {
+        "id": 24,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img24.jpg"
+    },
+    {
+        "id": 25,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img25.jpg"
+    },
+    {
+        "id": 26,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img26.jpg"
+    },
+    {
+        "id": 27,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img27.jpg"
+    },
+    {
+        "id": 28,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img28.jpg"
+    },
+    {
+        "id": 29,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img29.jpg"
+    },
+    {
+        "id": 30,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img30.jpg"
+    },
+    {
+        "id": 31,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img31.jpg"
+    },
+    {
+        "id": 32,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img32.jpg"
+    },
+    {
+        "id": 33,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img33.jpg"
+    },
+    {
+        "id": 34,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img34.jpg"
+    },
+    {
+        "id": 35,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img35.jpg"
+    },
+    {
+        "id": 36,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img36.jpg"
+    },
+    {
+        "id": 37,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img37.jpg"
+    },
+    {
+        "id": 38,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img38.jpg"
+    },
+    {
+        "id": 39,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img39.jpg"
+    },
+    {
+        "id": 40,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img40.jpg"
+    },
+    {
+        "id": 41,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img41.jpg"
+    },
+    {
+        "id": 42,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img42.jpg"
+    },
+    {
+        "id": 43,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img43.jpg"
+    },
+    {
+        "id": 44,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img44.jpg"
+    },
+    {
+        "id": 45,
+        "title": "Laptop",
+        "category": "Russian",
+        "image": "img/img45.jpg"
+    }
+]
